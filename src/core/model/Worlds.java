@@ -1,8 +1,10 @@
-package core.model.input;
+package core.model;
 
 public class Worlds {
     protected String title;
     protected Integer length;
+
+
 
     public String getTitle() {
         return title;

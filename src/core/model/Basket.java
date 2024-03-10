@@ -1,8 +1,5 @@
 package core.model;
 
-import core.Config;
-import core.model.input.Worlds;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -52,8 +49,4 @@ public class Basket {
         scanner.close();
         return wordFrequency;
     }
-
-
-
-
 }
